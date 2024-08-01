@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div id="container" class="grid sm:grid-cols-12">
+      <div class="sm:col-span-3 h-screen bg-slate-800">
+        <p class="text-3xl text-white text-center mt-6 font-bold">Dashboard</p>
+       <div class="mt-20 flex flex-col gap-8">
+        <div class="flex items-center gap-5">
+          <img src="./assets/dashboard-5-svgrepo-com.svg" class="w-12 ml-5" alt="">
+          <p class="text-2xl text-slate-300">Dashboard</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/team-svgrepo-com.svg" class="w-12 ml-5" alt="">
+          <p class="text-2xl text-slate-300">Team</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/project.svg" class="w-12 ml-5" alt="">
+          <p class="text-2xl text-slate-300">Projects</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/calender-svgrepo-com.svg" class="w-12 ml-5" alt="">
+          <p class="text-2xl text-slate-300">Calender</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/document-svgrepo-com.svg" class="w-12 ml-5" alt="">
+          <p class="text-2xl text-slate-300">Documents</p>
+        </div>
+      </div>
+
+      <div id="bottom" class="absolute bottom-20">
+        <p class="text-2xl text-slate-300 ml-8 mb-8">Your Teams</p>
+        <div class="flex items-center gap-5">
+          <img src="./assets/team-svgrepo-com.svg" class="w-8 ml-5" alt="">
+          <p class="text-lg text-slate-300">PW Skills</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/team-svgrepo-com.svg" class="w-8 ml-5" alt="">
+          <p class="text-lg text-slate-300">PW Labs</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./assets/team-svgrepo-com.svg" class="w-8 ml-5" alt="">
+          <p class="text-lg text-slate-300">PW IOI</p>
+        </div>
+      </div>
+
+      </div>
+      <div class="sm:col-span-9 bg-slate-300">
+        <div class=" bg-white rounded-md h-16 m-10 flex justify-between">
+          <div id="left" class="flex justify-center items-center gap-4 ml-3">
+            <img src="./assets/profile-circle-svgrepo-com.svg" class="w-8" alt="">
+            <p>Profile</p>
+          </div>
+          <div id="right" class="flex justify-center items-center gap-4 mr-3">
+            <img src="./assets/search-alt-svgrepo-com.svg" class="w-8" alt="">
+            <img src="./assets/bell-svgrepo-com.svg" class="w-8" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
